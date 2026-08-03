@@ -125,7 +125,7 @@ export default function Home() {
           <p>Tell us about your fleet, locations, equipment, and timeline. We&apos;ll help shape a deployment plan that fits the work.</p>
           <div className="contact-note">
             <span>↗</span>
-            <p><small>Prefer email?</small><br /><a href="mailto:hello@tweetertechnical.com">hello@tweetertechnical.com</a></p>
+            <p><small>Prefer email?</small><br /><a href="mailto:Tweetertechnical@gmail.com">Tweetertechnical@gmail.com</a></p>
           </div>
         </div>
         <div className="form-wrap">
@@ -153,6 +153,16 @@ export default function Home() {
               <div className="field full">
                 <label htmlFor="address">Business address</label>
                 <input id="address" name="address" type="text" placeholder="Street, city, state, ZIP" autoComplete="street-address" required />
+              </div>
+              <div className="field full">
+                <label htmlFor="projectInformation">Project information</label>
+                <textarea
+                  id="projectInformation"
+                  name="projectInformation"
+                  placeholder="Describe the project, fleet size, service locations, equipment to install or remove, and your preferred timeline."
+                  rows={6}
+                  required
+                />
               </div>
               <div className="form-footer full">
                 <p>By submitting, you agree to be contacted about your inquiry.</p>
